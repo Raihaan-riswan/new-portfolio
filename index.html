@@ -9,6 +9,8 @@
   <link
     href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=DM+Sans:wght@300;400;500;600&display=swap"
     rel="stylesheet" />
+  <script src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js"></script>
+  <link rel="stylesheet" href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css" />
   <style>
     :root {
       --bg: #f7f5f0;
@@ -985,6 +987,11 @@
               <div class="stat-label">Dedication</div>
             </div>
           </div>
+
+          <div class="calendar" style="margin-top: 32px; border: 1px solid var(--border); border-radius: 12px; padding: 16px; background: var(--bg); color: var(--text);"></div>
+          <script>
+            GitHubCalendar(".calendar", "Raihaan-riswan", { responsive: true });
+          </script>
         </article>
 
         <!-- ABOUT -->

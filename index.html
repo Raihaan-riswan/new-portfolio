@@ -36,6 +36,10 @@
       --border: rgba(255, 255, 255, 0.06);
     }
 
+    [data-theme="dark"] .gh-chart {
+      filter: invert(1) hue-rotate(180deg);
+    }
+
     * {
       box-sizing: border-box;
       margin: 0;
@@ -984,6 +988,10 @@
               <div class="stat-num">100%</div>
               <div class="stat-label">Dedication</div>
             </div>
+          </div>
+
+          <div style="margin-top: 32px; border: 1px solid var(--border); border-radius: 12px; padding: 16px; background: var(--bg); overflow-x: auto; text-align: center;">
+            <img src="https://ghchart.rshah.org/Raihaan-riswan" alt="GitHub Contributions" class="gh-chart" style="max-width: 100%; height: auto; min-width: 600px;">
           </div>
         </article>
 
